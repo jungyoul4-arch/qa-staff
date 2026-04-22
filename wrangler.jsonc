@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "qa-tutoring-app",
+  "compatibility_date": "2026-02-06",
+  "pages_build_output_dir": "./dist",
+  "compatibility_flags": ["nodejs_compat"],
+  "placement": { "mode": "smart", "hint": "wnam" },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "qa-tutoring-db",
+      "database_id": "f6ea6b2e-f2dd-413e-a1db-90ca3c7fc650"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "R2",
+      "bucket_name": "jungyoul"
+    }
+  ]
+}

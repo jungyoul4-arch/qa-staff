@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>오프라인 - Q&A</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#141414;color:#e5e5e5;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px}
+.wrap{max-width:320px}
+.icon{font-size:64px;margin-bottom:20px;opacity:.5}
+h1{font-size:20px;font-weight:700;margin-bottom:8px;color:#fff}
+p{font-size:14px;color:#999;line-height:1.6;margin-bottom:24px}
+.btn{display:inline-block;padding:12px 32px;background:#e50914;color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;text-decoration:none}
+.btn:hover{opacity:.9}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="icon">📡</div>
+  <h1>인터넷 연결 없음</h1>
+  <p>현재 오프라인 상태입니다.<br>인터넷에 연결되면 자동으로 복구됩니다.</p>
+  <button class="btn" onclick="location.reload()">다시 시도</button>
+</div>
+<script>
+window.addEventListener('online', () => location.reload());
+</script>
+</body>
+</html>

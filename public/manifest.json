@@ -1,0 +1,28 @@
+{
+  "name": "Q&A 튜터링",
+  "short_name": "Q&A",
+  "description": "학생들을 위한 1:1 질문답변 & 튜터링 플랫폼",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#141414",
+  "theme_color": "#141414",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education"],
+  "lang": "ko",
+  "dir": "ltr"
+}

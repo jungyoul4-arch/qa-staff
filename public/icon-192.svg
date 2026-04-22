@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="40" fill="#141414"/>
+  <rect x="8" y="8" width="176" height="176" rx="34" fill="#1a1a1a" stroke="#e50914" stroke-width="3"/>
+  <text x="96" y="78" font-family="Arial Black, sans-serif" font-size="48" font-weight="900" fill="#e50914" text-anchor="middle">Q&A</text>
+  <text x="96" y="118" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">TUTORING</text>
+  <line x1="40" y1="130" x2="152" y2="130" stroke="#e50914" stroke-width="2" opacity="0.5"/>
+  <text x="96" y="155" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#999999" text-anchor="middle">1:1 Learning</text>
+</svg>
