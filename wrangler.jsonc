@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "qa-tutoring-app",
+  "name": "qa-staff",
   "compatibility_date": "2026-02-06",
   "pages_build_output_dir": "./dist",
   "compatibility_flags": ["nodejs_compat"],
@@ -8,14 +8,14 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "qa-tutoring-db",
-      "database_id": "f6ea6b2e-f2dd-413e-a1db-90ca3c7fc650"
+      "database_name": "qa-staff-db",
+      "database_id": "f712335e-ebc4-4859-99f4-d01052979bf9"
     }
   ],
   "r2_buckets": [
     {
       "binding": "R2",
-      "bucket_name": "jungyoul"
+      "bucket_name": "qa-staff"
     }
   ]
 }
